@@ -18,5 +18,24 @@
 //console.log(os.cpus());
 //console.log(os.homedir());
 //console.log(os.platform());
-const os = require('os');
-const fs = require('fs');
+//const os = require('os');
+//const fs = require('fs');
+
+//try {
+//const file = fs.readFileSync('./mat.js', {encoding:'utf-8'});
+//console.log(file);
+//} catch (err){
+ //   console.log('err :>> ', err);
+//}
+
+//CONTRACT 'ERROR FIRST'
+//fs.readFile('./mat.js', {encoding:'utf-8'},(err, filedate)=>{
+//if(err){
+  //  console.log('err :>> ', err);
+//} else {
+  //  console.log('filedATE :>> ', filedate);
+//}
+//});
+//////////////////////////
+//console.log('filename :>> ', filename);
+//console.log('dirname :>> ', dirname);
